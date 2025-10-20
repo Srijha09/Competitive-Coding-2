@@ -1,7 +1,7 @@
 class Solution(object):
     def twoSum(self, nums, target):
         """
-        Hashmap: Time complexity O(n) and space: O(n)
+        Hashmap: Time complexity O(n) ans search is O(1) and space: O(n)
         Note: You add the element from array into hashamp and 
         check if complement exists if so return the element.
         :type nums: List[int]
