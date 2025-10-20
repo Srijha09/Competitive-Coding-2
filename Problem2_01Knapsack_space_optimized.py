@@ -15,6 +15,6 @@ def knapsack(weights, values, W):
                     values[i - 1] + dp[w - weights[i - 1]] #choose
                 )
             else:
-                dp[w] = dp[i - 1][w]
+                dp[w] = dp[w]
     
     return dp[W]
